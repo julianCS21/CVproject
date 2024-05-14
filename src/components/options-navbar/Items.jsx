@@ -1,8 +1,8 @@
-import '../options-navbar/ItemStyle.css'
+import styles from  './ItemStyle.module.css'
 
 
 const Item = ({namePage}) =>{
-    return <div className="item-content">
+    return <div className={styles.item}>
         <p>{namePage}</p>
     </div>
 }

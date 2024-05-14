@@ -1,0 +1,14 @@
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  .section {
+    animation: fadeInOut 10s infinite;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    padding: 16rem;
+    font-family: sans-serif;
+  }

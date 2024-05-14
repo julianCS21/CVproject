@@ -1,8 +1,8 @@
-import '../navbar/NavbarStyles.css'
-import Item from '../options-navbar/Items';
+import  styles from './NavbarStyles.module.css'
+import Item from  '../options-navbar/Items';
 
 const Navbar = () =>{
-    return <div className='navbar-content'>
+    return <div className={styles.navbar}>
         <Item namePage={'Inicio'}></Item>
         <Item namePage={'Acerca de mi'}></Item>
         <Item namePage={'Estudios'}></Item>

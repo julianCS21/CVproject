@@ -1,10 +1,4 @@
-@keyframes fadeInOut {
-    0%, 100% { opacity: 0; }
-    50% { opacity: 1; }
-  }
-  
-  .section {
-    animation: fadeInOut 10s infinite;
+.section {
     color: white;
     font-size: x-large;
     display: flex;

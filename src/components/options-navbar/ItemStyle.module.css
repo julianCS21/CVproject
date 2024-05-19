@@ -16,3 +16,12 @@
     transform: scale(1.1); 
     cursor: pointer; 
 }
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-left: 3%;
+}

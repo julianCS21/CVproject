@@ -6,15 +6,7 @@ export default function Home() {
   return (
     <>
       <div className={styles.section}>
-        <h1> Bienvenido a mi sitio web</h1>
-      </div>
-
-      <div className={styles.section}>
-        <h1> Bienvenido a mi sitio web</h1>
-      </div>
-
-      <div className={styles.section}>
-        <h1> Bienvenido a mi sitio web</h1>
+        <h1> Welcome to my website</h1>
       </div>
     </>
    
